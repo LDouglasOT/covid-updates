@@ -67,10 +67,10 @@ You might also want to the local server automatically restarted for you any time
 ```js
 npm run watch
 ```
-
+<a href="https://covid-stats-9i70.onrender.com/">LIVE DEMO</a>)
 ## Authors <a name="author"></a>
 
-👤 **Doiglas Luzinda**
+👤 **Douglas Luzinda**
 
 - GitHub: [@githubhandle](https://github.com/LDouglasOT)
 - Twitter: [@twitterhandle]()
