@@ -35,7 +35,6 @@ function Home() {
           } if (country.Country.toLowerCase().includes(searchTerm.toLocaleLowerCase())) {
             return country;
           }
-          return country;
         }).map((country) => (
           <CountryData key={country} country={country} />
         ))
