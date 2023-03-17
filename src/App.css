@@ -1,0 +1,102 @@
+.analytic-container {
+  background-color: #F85193;
+  width: 24.8%;
+  color: white;
+  margin: 0px;
+  /* padding: 5px; */
+  border: 1px solid rgb(251, 251, 251);
+  background: linear-gradient(to right, #121212, #F85193);
+}
+.analytic-container h1{
+  color: lightgrey;
+}
+.flexer{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 0px;
+}
+.flexer h2{
+  margin: 0px;
+}
+.caps{
+  font-size: 10px;
+  color: rgb(231, 231, 231);
+}
+.stats{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+}
+.subcontainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.subcontainer {
+  border: 0.2px solid rgb(255, 255, 255);
+  /* background: linear-gradient(to right, #7b7b7b, #111111); */
+}
+
+.searchBar {
+ height: 30px;
+ width: 50%;
+ border-radius: 5px; 
+}
+
+.TopBar {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background: #536976;
+background: -webkit-linear-gradient(to right, #292E49, #536976);
+background: linear-gradient(to right, #292E49, #536976);
+padding: 20px;
+background-image: url("https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.TopBar h1{
+  color: white;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+}
+.details-wrap {
+  background-image: url("https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  color: whitesmoke;
+  backdrop-filter: blur(8px);
+        /* -webkit-filter: blur(8px); */
+  /* color:white; */
+}
+.details-wrap h1{
+  font-size: 60px;
+}
+.details-wrap ul{
+  background-color: rgb(238, 82, 126,0.6);
+  padding: 15px;
+  width: 50%;
+  border-radius: 10px;
+}
+.list-details {
+  background-color: transparent;
+  font-size: 30px;
+  border: 1px solid rgb(241, 241, 241);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
