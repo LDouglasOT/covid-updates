@@ -1,99 +1,70 @@
-<!-- TABLE OF CONTENTS -->
+# Getting Started with Create React App
 
-# 📗 Table of Contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [📗 Table of Contents](#table-of-contents)
-- [Todo list App -- with Webpack ](#todo-list-app--with-webpack)
-  - [🛠 Built With ](#built-with)
-    - [Key Features ](#key-features)
-  - [🚀 Live Demo ](#live-demo)
-  - [Getting Started ](#getting-started)
-    - [Install ](#install)
-  - [Author ](#author)
-  - [🤝 Contributing ](#contributing)
-  - [Show your support ](#show-your-support)
-  - [Acknowledgments ](#acknowledgments)
-  - [📝 License ](#license)
+## Available Scripts
 
-<!-- PROJECT DESCRIPTION -->
+In the project directory, you can run:
 
-# Covid Statistics App <a name="todo-list-app--with-webpack"></a>
+### `npm start`
 
-We build this project using React and Redux. We also consumed external API data using createAsyncThunk and extraReducers in respective redux slices.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠 Built With <a name="built-with"></a>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- React
-- Redux
+### `npm test`
 
-<!-- Features -->
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Key Features <a name="key-features"></a>
+### `npm run build`
 
-> Key features of the application include the feature to:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Search Countries.**
-- **Render countries list.**
-- **Navigation**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<!-- GETTING STARTED -->
+### `npm run eject`
 
-## Getting Started <a name="getting-started"></a>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-To get a local copy up and running follow these simple example steps.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Install <a name="install"></a>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```js
-npm install
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-To build a webpack bundle file,run
+## Learn More
 
-```js
-npm run build
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To start the project, run
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```js
-npm start
-```
+### Code Splitting
 
-You might also want to the local server automatically restarted for you any time you change any file in src folder. To activate that, open another terminal beside the the one running **npm start** and run the following command. Ensure to keep the terminal running:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```js
-npm run watch
-```
-<a href="https://covid-stats-9i70.onrender.com/">LIVE DEMO</a>)
-## Authors <a name="author"></a>
+### Analyzing the Bundle Size
 
-👤 **Douglas Luzinda**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- GitHub: [@githubhandle](https://github.com/LDouglasOT)
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
+### Making a Progressive Web App
 
-## 🤝 Contributing <a name="contributing"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Contributions, issues, and feature requests are welcome!
+### Advanced Configuration
 
-Feel free to check the [issues page](../../issues/).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Show your support <a name="support"></a>
+### Deployment
 
-Give a ⭐️ if you like this project!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Acknowledgments <a name="acknowledgements"></a>
+### `npm run build` fails to minify
 
-- Hat tip to anyone who inspired this project
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<a name="readme-top"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
